@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanayi Bakanlığı</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <header id="header" class="d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <h1 class="text-light"><a href="index.html"><span>SANAYİ BAKANLIĞI EĞİTİM VE TEZ ARŞİVİ</span></a></h1>
+                    @*<div class="logo">
+                        <a href="index.cshtml"><img src="~/assets/img/Logo/STB-Logo Yatay Kullanım TR beyaz.png" alt="icon bulunamadı" class="img-fluid"></a>
+                    </div>*@
+                </div>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="~/Home/Index">Anasayfa</a></li>
+                    <li><a class="nav-link scrollto" href="~/Home/Hakkimizda">Hakkımızda</a></li>
+                    <li><a class="nav-link scrollto" href="#Features">Eğitim Kataloğu</a></li>
+                    <li><a class="nav-link scrollto " href="#">Tez Arşivi</a></li>
+                    <li><a class="nav-link scrollto" href="#Contact">İletişim</a></li>
+                    @*
+                    <li class="dropdown">
+                        <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    *@
+                </ul>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            @*</div>
+            <div class="col">
+                <a type="button" href="#" class="btn-login scrollto">Giriş Yap</a>
+            </div>*@
+        </header><!-- End Header -->
+    </div>
+        <div style="margin-bottom:90px">
+        </div>
+        @RenderBody()
+        @*<div class="wrap">*@
+            <footer id="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-6 footer-contact">
+                                <h4>Sanayi ve Teknoloji Bakanlığı <br /> Eğitim ve Tez Arşivi</h4>
+                                <p>
+                                    <strong>Email: </strong>egitim@sanayi.gov.tr<br>
+                                    <strong>Telefon: </strong>444 6 100<br>
+                                </p>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 footer-links">
+                                <h4>Site Haritası</h4>
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="~/Home/Index">Anasayfa</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="~/Home/Hakkimizda">Hakkımızda</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="#">Eğitim Kataloğu</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="#">Tez Arşivi</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="#">Sıkça Sorulan Sorular</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="#">İletişim</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 footer-links">
+                                <h4>Sosyal Medya</h4>
+                                <div style="color: #969696">
+                                    <p>Bizi Takip Edin</p>
+                                </div>
+                                <div class="social-links mt-3">
+                                    <a href="https://twitter.com/TCSanayi" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                    <a href="https://www.facebook.com/TCSanayi/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                    <a href="https://www.instagram.com/tcsanayi/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                    <a href="https://www.youtube.com/channel/UChI_JJN9aD-YKegn4q7EHHQ" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="container">
+                    <p>&copy; @DateTime.Now.Year - Eğitim ve Kariyer Planlama Daire Başkanlığı</p>
+                </div>
+            </footer>
+        @*</div>*@
+        <!-- Vendor JS Files -->
+        <script src="~/assets/vendor/aos/aos.js"></script>
+        <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="~/assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="~/assets/js/main.js"></script>
+</body>
+</html>

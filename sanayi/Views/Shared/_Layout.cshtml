@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğitim Kütüphanesi</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header id="header" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="logo">
+                <a href="~/Home/Index"><img src="~/assets/img/Logo/mainlogo2.png" alt="icon bulunamadı" class="img-fluid"></a>
+            </div>
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link" href="~/Home/Index">Anasayfa</a></li>
+                <li><a class="nav-link scrollto" href="~/Home/Hakkimizda">Hakkımızda</a></li>
+                <li><a class="nav-link scrollto" href="~/Home/Egitimler">Eğitimler</a></li>
+                <li><a class="nav-link scrollto " href="~/Home/Tezler">Tezler</a></li>
+                <li><a class="nav-link scrollto" href="~/Home/Iletisim">İletişim</a></li>
+
+            </ul>
+
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+        <div class="input-group searchlg">
+            @*Searchbox*@ <input type="search" class="searchcontrol rounded searchbox" placeholder="site içi arama..." aria-label="Search" aria-describedby="search-addon" />
+            @*Button*@  <button type="button" class="btn btn-outline-primary sboxbtn">Ara</button>
+
+        </div>
+    </header><!-- End Header -->
+    @RenderBody()
+
+
+    <footer id="footer" class="mt-auto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-10 col-sm-8 text-start">
+                    <div class="logo">
+                        <img src="~/assets/img/Logo/Sanayi_Beyaz_edited.png" alt="icon bulunamadı" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-4 text-center">
+                    <a href="~/Home/SSS"><p class="yaziDikOrt footermail">S.S.S.</p></a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="yaziDikOrt">
+                        <p class="">&copy; @DateTime.Now.Year - Eğitim ve Kariyer Planlama Daire Başkanlığı</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <a href="mailto:egitimvekariyer@sanayi.gov.tr"><p class="yaziDikOrt footermail">egitimvekariyer@sanayi.gov.tr</p></a>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 text-end social-links">
+                    <a href="https://twitter.com/TCSanayi" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/TCSanayi/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/tcsanayi/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UChI_JJN9aD-YKegn4q7EHHQ" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    @*</div>*@
+    <!-- Vendor JS Files -->
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="~/assets/vendor/aos/aos.js"></script>
+    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+</body>
+</html>
