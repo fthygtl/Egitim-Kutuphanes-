@@ -10,4 +10,3 @@
 
 ![ScreenClip](https://user-images.githubusercontent.com/70219430/190847312-58fdb364-c3c3-45ac-bf93-0a5418b40af6.png)
 
-The source code cannot shared because of the privacy policies and the site is not published yet
